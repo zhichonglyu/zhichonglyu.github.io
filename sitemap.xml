@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhichonglyu.com/about/index.html</loc>
+    <loc>https://zhichonglyu.github.io/about/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://zhichonglyu.com/4a17b156/</loc>
+    <loc>https://zhichonglyu.github.io/4a17b156/</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://zhichonglyu.com/99bf3cfe/</loc>
+    <loc>https://zhichonglyu.github.io/99bf3cfe/</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://zhichonglyu.com/textual-analysis/index.html</loc>
+    <loc>https://zhichonglyu.github.io/textual-analysis/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://zhichonglyu.com/categories/index.html</loc>
+    <loc>https://zhichonglyu.github.io/categories/index.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://zhichonglyu.com/tags/index.html</loc>
+    <loc>https://zhichonglyu.github.io/tags/index.html</loc>
     
     <lastmod>2024-01-25</lastmod>
     
@@ -57,7 +57,7 @@
   
 
   <url>
-    <loc>http://zhichonglyu.com/</loc>
+    <loc>https://zhichonglyu.github.io/</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -65,14 +65,14 @@
 
   
   <url>
-    <loc>http://zhichonglyu.com/tags/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90/</loc>
+    <loc>https://zhichonglyu.github.io/tags/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90/</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://zhichonglyu.com/tags/%E7%BB%BC%E8%BF%B0/</loc>
+    <loc>https://zhichonglyu.github.io/tags/%E7%BB%BC%E8%BF%B0/</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -81,7 +81,7 @@
 
   
   <url>
-    <loc>http://zhichonglyu.com/categories/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90/</loc>
+    <loc>https://zhichonglyu.github.io/categories/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90/</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
