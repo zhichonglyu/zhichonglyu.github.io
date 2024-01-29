@@ -1,9 +1,9 @@
-https://zhichonglyu.github.io/about/
+https://zhichonglyu.github.io/about/index.html
 https://zhichonglyu.github.io/4a17b156/
 https://zhichonglyu.github.io/99bf3cfe/
-https://zhichonglyu.github.io/textual-analysis/
-https://zhichonglyu.github.io/categories/
-https://zhichonglyu.github.io/tags/
+https://zhichonglyu.github.io/textual-analysis/index.html
+https://zhichonglyu.github.io/categories/index.html
+https://zhichonglyu.github.io/tags/index.html
 https://zhichonglyu.github.io/
 https://zhichonglyu.github.io/tags/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90/
 https://zhichonglyu.github.io/tags/%E7%BB%BC%E8%BF%B0/
