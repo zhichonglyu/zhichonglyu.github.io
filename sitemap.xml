@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhichonglyu.com/c046ad65/</loc>
+    
+    <lastmod>2024-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/a348f433/</loc>
     
     <lastmod>2024-01-31</lastmod>
@@ -134,6 +143,20 @@
   </url>
   
   <url>
+    <loc>https://zhichonglyu.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/tags/%E7%A7%80%E7%B1%B3/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -172,6 +195,13 @@
   
   <url>
     <loc>https://zhichonglyu.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
