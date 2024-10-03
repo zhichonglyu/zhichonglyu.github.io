@@ -260,27 +260,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/R/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/TF-IDF/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/%E4%BD%99%E5%BC%A6%E7%9B%B8%E4%BC%BC%E6%80%A7/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E6%8D%AE/</loc>
     <lastmod>2024-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -316,21 +295,28 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/AER/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/R/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/TF-IDF/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/%E4%BD%99%E5%BC%A6%E7%9B%B8%E4%BC%BC%E6%80%A7/</loc>
     <lastmod>2024-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -345,6 +331,20 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/%E6%95%B0%E5%80%BC%E9%A2%84%E6%B5%8B/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/AER/</loc>
     <lastmod>2024-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -372,27 +372,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/JPE/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93/</loc>
-    <lastmod>2024-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/AI/</loc>
     <lastmod>2024-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -414,7 +393,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/%E5%AE%9A%E4%B9%89%E8%BE%A8%E6%9E%90/</loc>
+    <loc>https://zhichonglyu.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/%E9%AB%98%E9%A2%91%E4%BA%A4%E6%98%93/</loc>
     <lastmod>2024-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -429,6 +415,20 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/%E6%8E%92%E7%89%88/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/%E5%AE%9A%E4%B9%89%E8%BE%A8%E6%9E%90/</loc>
+    <lastmod>2024-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/JPE/</loc>
     <lastmod>2024-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
