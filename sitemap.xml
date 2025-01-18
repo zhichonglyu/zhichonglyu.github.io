@@ -303,13 +303,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Draft/</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/EAPS/</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -317,7 +310,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/JPE/</loc>
+    <loc>https://zhichonglyu.com/tags/Draft/</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/AER/</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -331,7 +331,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/AER/</loc>
+    <loc>https://zhichonglyu.com/tags/JPE/</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Tip/</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -353,13 +360,6 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/Trading/</loc>
-    <lastmod>2025-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Tip/</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -438,14 +438,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/Draft/</loc>
+    <loc>https://zhichonglyu.com/categories/Literature/</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/Literature/</loc>
+    <loc>https://zhichonglyu.com/categories/Draft/</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
