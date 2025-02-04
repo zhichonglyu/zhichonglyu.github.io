@@ -303,13 +303,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Draft/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/EAPS/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -317,14 +310,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/AER/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Economics/</loc>
+    <loc>https://zhichonglyu.com/tags/Draft/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -338,21 +324,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Deep-learning/</loc>
+    <loc>https://zhichonglyu.com/tags/Economics/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/High-frequency/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Trading/</loc>
+    <loc>https://zhichonglyu.com/tags/AER/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -380,13 +359,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Tip/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/Xiumi/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -395,6 +367,13 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/Layout/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Tip/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -421,6 +400,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zhichonglyu.com/tags/Deep-learning/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/High-frequency/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Trading/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -438,13 +438,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/Draft/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/categories/Literature/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -452,7 +445,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/DL/</loc>
+    <loc>https://zhichonglyu.com/categories/Draft/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -460,6 +453,13 @@
   
   <url>
     <loc>https://zhichonglyu.com/categories/Tool/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/categories/DL/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
