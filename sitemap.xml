@@ -219,20 +219,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/R/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/TF-IDF/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/JFuM/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,14 +275,21 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/EAPS/</loc>
+    <loc>https://zhichonglyu.com/tags/R/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Draft/</loc>
+    <loc>https://zhichonglyu.com/tags/TF-IDF/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/EAPS/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -332,6 +325,13 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/JPE/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Draft/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -380,6 +380,20 @@
   </url>
   
   <url>
+    <loc>https://zhichonglyu.com/tags/Xiumi/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Layout/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/tags/Tip/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -395,20 +409,6 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/Textual/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Xiumi/</loc>
-    <lastmod>2025-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Layout/</loc>
     <lastmod>2025-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
