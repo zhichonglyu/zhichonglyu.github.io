@@ -266,6 +266,34 @@
   </url>
   
   <url>
+    <loc>https://zhichonglyu.com/tags/RSER/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Digital-economy/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Carbon-emissions/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Green-innovation/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/tags/ChatGPT/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -308,28 +336,28 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/RSER/</loc>
+    <loc>https://zhichonglyu.com/tags/JFE/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Digital-economy/</loc>
+    <loc>https://zhichonglyu.com/tags/Multimodal/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Carbon-emissions/</loc>
+    <loc>https://zhichonglyu.com/tags/R/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Green-innovation/</loc>
+    <loc>https://zhichonglyu.com/tags/TF-IDF/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -378,20 +406,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/JFE/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Multimodal/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/EAPS/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -399,14 +413,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/R/</loc>
+    <loc>https://zhichonglyu.com/tags/AER/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/TF-IDF/</loc>
+    <loc>https://zhichonglyu.com/tags/Economics/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -428,20 +442,6 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/Draft/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/AER/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Economics/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -490,27 +490,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/JPE/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/JBES/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Textual/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/News/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -525,6 +504,13 @@
   </url>
   
   <url>
+    <loc>https://zhichonglyu.com/tags/JPE/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/tags/Xiumi/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -533,6 +519,20 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/Layout/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/JBES/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Textual/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -555,13 +555,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/Draft/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/categories/Journal/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -569,7 +562,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/Literature/</loc>
+    <loc>https://zhichonglyu.com/categories/Draft/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -577,6 +570,13 @@
   
   <url>
     <loc>https://zhichonglyu.com/categories/Software/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/categories/Literature/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
