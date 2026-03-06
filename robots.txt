@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /myjs/
+
+Sitemap: https://zhichonglyu.com/sitemap.xml
+Sitemap: https://zhichonglyu.com/baidusitemap.xml
