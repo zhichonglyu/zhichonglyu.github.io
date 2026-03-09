@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/about/index.html</loc>
+    <loc>https://zhichonglyu.com/about/</loc>
     
     <lastmod>2026-03-06</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/categories/index.html</loc>
+    <loc>https://zhichonglyu.com/categories/</loc>
     
     <lastmod>2024-10-03</lastmod>
     
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/index.html</loc>
+    <loc>https://zhichonglyu.com/tags/</loc>
     
     <lastmod>2024-10-03</lastmod>
     
@@ -281,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/textual-analysis/index.html</loc>
+    <loc>https://zhichonglyu.com/textual-analysis/</loc>
     
     <lastmod>2024-02-01</lastmod>
     
@@ -327,6 +327,13 @@
   </url>
   
   <url>
+    <loc>https://zhichonglyu.com/tags/Configuration/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/tags/RSER/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -355,7 +362,21 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Configuration/</loc>
+    <loc>https://zhichonglyu.com/tags/ChatGPT/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Asset-pricing/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/LLMs/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -383,27 +404,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/ChatGPT/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Asset-pricing/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/LLMs/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/R/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -418,20 +418,6 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/JFE/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Multimodal/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhichonglyu.com/tags/Automation/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -440,6 +426,20 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/MCP/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/MS/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Accounting/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -474,42 +474,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/MS/</loc>
+    <loc>https://zhichonglyu.com/tags/JFE/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Accounting/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Draft/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/AER/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Economics/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/EAPS/</loc>
+    <loc>https://zhichonglyu.com/tags/Multimodal/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -537,6 +509,41 @@
   </url>
   
   <url>
+    <loc>https://zhichonglyu.com/tags/AER/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Economics/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/EAPS/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/Draft/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/S1/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhichonglyu.com/tags/Markdown/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -551,7 +558,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/S1/</loc>
+    <loc>https://zhichonglyu.com/tags/Cursor/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhichonglyu.com/tags/GitHub-Copilot/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -565,14 +579,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Cursor/</loc>
+    <loc>https://zhichonglyu.com/tags/RFS/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/GitHub-Copilot/</loc>
+    <loc>https://zhichonglyu.com/tags/Information-disclosure/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -600,14 +614,14 @@
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/RFS/</loc>
+    <loc>https://zhichonglyu.com/tags/Xiumi/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhichonglyu.com/tags/Information-disclosure/</loc>
+    <loc>https://zhichonglyu.com/tags/Layout/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -636,20 +650,6 @@
   
   <url>
     <loc>https://zhichonglyu.com/tags/Textual/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Xiumi/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhichonglyu.com/tags/Layout/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
