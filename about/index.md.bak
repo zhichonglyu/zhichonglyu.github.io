@@ -1,0 +1,243 @@
+---
+title: About
+date: 2024-01-01 00:00:00
+type: "about"
+aside: false
+toc: false
+---
+
+<style>
+/* ========== HERO ========== */
+.about-hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#2c4a7a 0%,#4a6fa5 50%,#6b8dc7 100%);color:#fff;padding:32px 32px 28px;border-radius:16px;margin-bottom:32px;box-shadow:0 8px 28px rgba(74,111,165,.25);display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.about-hero::before{content:"";position:absolute;top:-60px;right:-60px;width:220px;height:220px;background:radial-gradient(circle,rgba(255,255,255,.2),transparent 70%);border-radius:50%}
+.about-hero::after{content:"";position:absolute;bottom:-80px;left:40%;width:280px;height:280px;background:radial-gradient(circle,rgba(240,192,64,.16),transparent 70%);border-radius:50%}
+[data-theme="dark"] .about-hero{background:linear-gradient(135deg,#1e2d47 0%,#2c3e5a 50%,#3a4f72 100%)}
+.about-avatar{position:relative;z-index:2;flex-shrink:0}
+.about-avatar img{width:130px;height:130px;border-radius:50%;border:4px solid rgba(255,255,255,.3);box-shadow:0 6px 20px rgba(0,0,0,.2);object-fit:cover;transition:transform .4s}
+.about-avatar img:hover{transform:scale(1.05) rotate(3deg)}
+.about-hero-text{position:relative;z-index:2;flex:1;min-width:260px}
+.about-hero h1{color:#fff!important;margin:0 0 6px!important;font-size:2.1em;border:none!important;letter-spacing:.5px}
+.about-hero .subtitle{opacity:.95;font-size:1.02em;margin-bottom:16px;line-height:1.5}
+.about-hero .meta{display:flex;flex-wrap:wrap;gap:10px;font-size:.92em;margin-bottom:14px}
+.about-hero .meta span{background:rgba(0,0,0,.28);color:#fff;padding:5px 14px;border-radius:20px;font-weight:500;letter-spacing:.2px}
+.about-social{display:flex;gap:10px;flex-wrap:wrap}
+.about-social a{display:inline-flex;align-items:center;gap:6px;background:#fff;color:#2c4a7a;padding:6px 14px;border-radius:22px;font-size:.88em;text-decoration:none;transition:all .25s;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.about-social a:hover{background:#f0c040;color:#333;transform:translateY(-2px);box-shadow:0 4px 12px rgba(240,192,64,.5)}
+
+/* ========== STATS ========== */
+.about-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:32px}
+.about-stats .stat{background:var(--card-bg,#fff);border-radius:12px;padding:18px 12px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.06);transition:all .3s;border-top:3px solid #4a6fa5}
+.about-stats .stat:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(74,111,165,.2)}
+[data-theme="dark"] .about-stats .stat{background:#242731;border-top-color:#6b8dc7}
+.about-stats .stat .num{font-size:1.9em;font-weight:700;color:#4a6fa5;line-height:1;margin-bottom:4px;display:block}
+[data-theme="dark"] .about-stats .stat .num{color:#8badd4}
+.about-stats .stat .label{font-size:.82em;color:#888;letter-spacing:.3px}
+[data-theme="dark"] .about-stats .stat .label{color:#aaa}
+@media(max-width:700px){.about-stats{grid-template-columns:repeat(2,1fr)}}
+
+/* ========== SECTIONS ========== */
+.about-section{background:var(--card-bg,#fff);border-left:4px solid #4a6fa5;padding:18px 26px 20px;margin-bottom:26px;border-radius:8px;transition:all .3s;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.about-section:hover{box-shadow:0 6px 18px rgba(74,111,165,.12)}
+[data-theme="dark"] .about-section{background:#242731;border-left-color:#6b8dc7}
+.about-section h2{border:none!important;margin:0 0 14px!important;color:#4a6fa5;font-size:1.35em;display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:2px dashed rgba(74,111,165,.15)!important}
+[data-theme="dark"] .about-section h2{color:#8badd4;border-bottom-color:rgba(139,173,212,.2)!important}
+.about-section p,.about-section ul{margin:8px 0}
+.about-section ul{padding-left:22px}
+.about-section ul li{margin-bottom:6px;line-height:1.7}
+
+/* ========== TIMELINE (FLAT) ========== */
+.timeline{position:relative;padding:6px 0 6px 28px}
+.timeline::before{content:"";position:absolute;left:8px;top:10px;bottom:10px;width:2px;background:linear-gradient(180deg,#4a6fa5,#8ea8d1)}
+.ti{position:relative;padding:10px 16px;margin-bottom:10px;background:rgba(74,111,165,.05);border-radius:8px;transition:all .3s}
+.ti:hover{background:rgba(74,111,165,.11);transform:translateX(4px)}
+.ti::before{content:"";position:absolute;left:-26px;top:16px;width:12px;height:12px;border-radius:50%;background:#4a6fa5;border:3px solid var(--card-bg,#fff);box-shadow:0 0 0 2px #4a6fa5}
+[data-theme="dark"] .ti{background:rgba(139,173,212,.07)}
+[data-theme="dark"] .ti:hover{background:rgba(139,173,212,.15)}
+[data-theme="dark"] .ti::before{background:#8badd4;border-color:#242731;box-shadow:0 0 0 2px #8badd4}
+.ti-date{display:inline-block;font-weight:600;color:#4a6fa5;margin-right:10px;font-size:.92em}
+[data-theme="dark"] .ti-date{color:#8badd4}
+.ti-main{font-weight:600;font-size:1em}
+.ti-sub{color:#666;font-size:.9em;margin-left:4px}
+[data-theme="dark"] .ti-sub{color:#aaa}
+
+/* ========== INTERESTS ========== */
+.interests{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0}
+.interests .chip{background:linear-gradient(135deg,rgba(74,111,165,.1),rgba(107,141,199,.18));padding:6px 14px;border-radius:20px;font-size:.92em;border:1px solid rgba(74,111,165,.2);transition:all .25s}
+.interests .chip:hover{background:linear-gradient(135deg,#4a6fa5,#6b8dc7);color:#fff;transform:translateY(-2px);box-shadow:0 4px 12px rgba(74,111,165,.3)}
+[data-theme="dark"] .interests .chip{background:linear-gradient(135deg,rgba(139,173,212,.12),rgba(139,173,212,.2));border-color:rgba(139,173,212,.3)}
+
+/* ========== PAPERS ========== */
+.pub-tabs{display:flex;gap:6px;margin:8px 0 14px;flex-wrap:wrap;border-bottom:2px solid rgba(74,111,165,.15);padding-bottom:0}
+.pub-tab{background:transparent;border:none;padding:8px 18px;font-size:.95em;color:#666;cursor:pointer;border-radius:8px 8px 0 0;transition:all .25s;font-weight:500;position:relative;bottom:-2px;border-bottom:2px solid transparent}
+.pub-tab:hover{color:#4a6fa5;background:rgba(74,111,165,.06)}
+.pub-tab.active{color:#4a6fa5;border-bottom-color:#4a6fa5;font-weight:600}
+[data-theme="dark"] .pub-tab{color:#aaa}
+[data-theme="dark"] .pub-tab:hover,[data-theme="dark"] .pub-tab.active{color:#8badd4;border-bottom-color:#8badd4}
+.pub-panel{display:none}
+.pub-panel.active{display:block;animation:fadeIn .3s}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.pub-card{background:rgba(74,111,165,.04);border-left:3px solid #4a6fa5;padding:12px 16px;margin-bottom:10px;border-radius:6px;transition:all .3s;line-height:1.7}
+.pub-card:hover{background:rgba(74,111,165,.1);transform:translateX(4px);box-shadow:0 4px 12px rgba(74,111,165,.15)}
+[data-theme="dark"] .pub-card{background:rgba(139,173,212,.06);border-left-color:#8badd4}
+[data-theme="dark"] .pub-card:hover{background:rgba(139,173,212,.14)}
+.pub-card .journal{font-style:italic;color:#4a6fa5;font-weight:500}
+[data-theme="dark"] .pub-card .journal{color:#8badd4}
+.pub-num{display:inline-block;background:#4a6fa5;color:#fff;font-weight:600;width:22px;height:22px;border-radius:50%;text-align:center;line-height:22px;font-size:.82em;margin-right:8px;font-style:normal;vertical-align:middle}
+[data-theme="dark"] .pub-num{background:#6b8dc7}
+
+/* ========== BADGES ========== */
+.tag{display:inline-block;font-size:.75em;padding:2px 9px;border-radius:10px;margin-left:4px;font-weight:600;letter-spacing:.3px;transition:transform .2s;background:#f0c040;color:#333}
+.tag:hover{transform:scale(1.08)}
+.tag.corr{background:#e74c3c;color:#fff}
+.tag.accepted{background:#27ae60;color:#fff}
+.tag.ssci{background:#2980b9;color:#fff}
+.tag.zone{background:#c0392b;color:#fff}
+.tag.if{background:#e67e22;color:#fff}
+.tag.swjtu{background:#34495e;color:#fff}
+.tag.fms{background:#8e44ad;color:#fff}
+.tag.cssci{background:#9b59b6;color:#fff}
+.tag.pku{background:#d35400;color:#fff}
+.tag.abs{background:#16a085;color:#fff}
+.doi{display:inline-block;background:rgba(74,111,165,.15);color:#4a6fa5;font-size:.8em;padding:2px 10px;border-radius:10px;margin-left:4px;text-decoration:none;transition:all .2s;font-weight:600}
+.doi:hover{background:#4a6fa5;color:#fff;transform:scale(1.06)}
+[data-theme="dark"] .doi{background:rgba(139,173,212,.2);color:#8badd4}
+[data-theme="dark"] .doi:hover{background:#8badd4;color:#1a1c23}
+.award-chip{display:inline-block;background:rgba(231,76,60,.12);color:#c0392b;padding:2px 10px;border-radius:12px;font-size:.82em;margin-left:6px;font-weight:600;transition:transform .2s}
+.award-chip:hover{transform:scale(1.06)}
+[data-theme="dark"] .award-chip{background:rgba(231,76,60,.22);color:#ff8c75}
+</style>
+
+<div class="about-hero">
+  <div class="about-avatar">
+    <img src="https://cdn.jsdelivr.net/gh/zhichonglyu/blogimg/img/202404291749220.jpg" alt="Zhichong Lyu">
+  </div>
+  <div class="about-hero-text">
+    <h1>Zhichong Lyu · 吕志冲</h1>
+    <div class="subtitle">Ph.D. Candidate, School of Economics and Management, Southwest Jiaotong University</div>
+    <div class="meta">
+      <span>📧 lyuzhichong@my.swjtu.edu.cn</span>
+      <span>🏠 Luoyang, Henan, China</span>
+    </div>
+    <div class="about-social">
+      <a href="mailto:lyuzhichong@my.swjtu.edu.cn">✉️ Email</a>
+      <a href="https://github.com/zhichonglyu" target="_blank" rel="noopener">🐙 GitHub</a>
+      <a href="https://zhichonglyu.com" target="_blank" rel="noopener">🌐 Blog</a>
+      <a href="https://wanwuera.com/" target="_blank" rel="noopener">🏢 Wanwu Era</a>
+    </div>
+  </div>
+</div>
+
+<div class="about-stats">
+  <div class="stat"><span class="num">8</span><span class="label">Publications</span></div>
+  <div class="stat"><span class="num">3</span><span class="label">SSCI / SCI</span></div>
+  <div class="stat"><span class="num">4</span><span class="label">CSSCI</span></div>
+  <div class="stat"><span class="num">3</span><span class="label">Conference Awards</span></div>
+</div>
+
+<div class="about-section">
+  <h2>🎯 Research Interests</h2>
+  <div class="interests">
+    <span class="chip">Quantitative Finance</span>
+    <span class="chip">Natural Language Processing</span>
+    <span class="chip">Climate Economics</span>
+    <span class="chip">Digital Economy</span>
+    <span class="chip">AI Agents</span>
+  </div>
+</div>
+
+<div class="about-section">
+  <h2>🎓 Education</h2>
+  <div class="timeline">
+    <div class="ti"><span class="ti-date">2024 – Present</span><span class="ti-main">Southwest Jiaotong University · Ph.D.</span><span class="ti-sub">Management Science & Engineering</span></div>
+    <div class="ti"><span class="ti-date">2022 – 2024</span><span class="ti-main">Southwest Jiaotong University · M.A.</span><span class="ti-sub">Applied Economics</span></div>
+    <div class="ti"><span class="ti-date">2020 – 2021</span><span class="ti-main">Southwestern University of Finance and Economics · B.A. (Exchange)</span><span class="ti-sub">Finance</span></div>
+    <div class="ti"><span class="ti-date">2018 – 2022</span><span class="ti-main">Tibet University · B.A.</span><span class="ti-sub">Finance</span></div>
+  </div>
+</div>
+
+<div class="about-section">
+  <h2>📚 Publications</h2>
+  <div class="pub-tabs">
+    <button class="pub-tab active" onclick="switchPubTab(event,'p-all')">All (8)</button>
+    <button class="pub-tab" onclick="switchPubTab(event,'p-ssci')">SSCI / SCI (3)</button>
+    <button class="pub-tab" onclick="switchPubTab(event,'p-cssci')">CSSCI (4)</button>
+    <button class="pub-tab" onclick="switchPubTab(event,'p-other')">Other (1)</button>
+  </div>
+
+  <div class="pub-panel active" id="p-all">
+    <div class="pub-card"><em class="pub-num">1</em> <b>Lyu, Z.</b>, Ma, F., & Zhang, J. (2023). Oil futures volatility prediction: Bagging or combination? <span class="journal">International Review of Economics & Finance</span>, 87, 457–467. <span class="tag">First Author</span> <span class="tag ssci">SSCI</span> <span class="tag zone">CAS Q2</span> <span class="tag if">IF 5.6</span> <span class="tag abs">ABS 2★</span> <span class="tag swjtu">SWJTU A</span> <a class="doi" href="https://doi.org/10.1016/j.iref.2023.05.007" target="_blank" rel="noopener">DOI</a></div>
+    <div class="pub-card"><em class="pub-num">2</em> Ma, F., <b>Lyu, Z.</b>, & Li, H. (2024). Can ChatGPT predict Chinese equity premiums? <span class="journal">Finance Research Letters</span>, 65, 105631. <span class="tag corr">Corresponding</span> <span class="tag ssci">SSCI</span> <span class="tag zone">CAS Q2</span> <span class="tag if">IF 6.9</span> <span class="tag abs">ABS 2★</span> <span class="tag swjtu">SWJTU B+</span> <a class="doi" href="https://doi.org/10.1016/j.frl.2024.105631" target="_blank" rel="noopener">DOI</a></div>
+    <div class="pub-card"><em class="pub-num">3</em> Luan, D., Zhou, X., <b>Lyu, Z.</b>, & Liu, W. (2025). From regulation to innovation: Eco-compensation and environmental sustainability in heavily polluting enterprises. <span class="journal">Journal of Environmental Management</span>, 395, 127733. <span class="tag ssci">SCI</span> <span class="tag zone">CAS Q2</span> <span class="tag if">IF 8.4</span> <span class="tag abs">ABS 3★</span> <span class="tag swjtu">SWJTU A+</span> <a class="doi" href="https://doi.org/10.1016/j.jenvman.2025.127733" target="_blank" rel="noopener">DOI</a></div>
+    <div class="pub-card"><em class="pub-num">4</em> <b>Lyu, Z.</b>, Han, X., Xu, C., Wang, H., & Chen, S. (2026). "Walk the Talk" or "All Talk No Walk"? Government Environmental Attention and Corporate Green Transformation. <span class="journal">Soft Science</span>, Issue 5. <span class="tag">First Author</span> <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU B+</span> <span class="tag accepted">Accepted</span></div>
+    <div class="pub-card"><em class="pub-num">5</em> <b>Lyu, Z.</b>, Han, X., Gong, Y., & Gao, Y. (2025). Government digital procurement and high-quality enterprise development. <span class="journal">East China Economic Management</span>, 39(5), 65–77. <span class="tag">First Author</span> <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU B</span></div>
+    <div class="pub-card"><em class="pub-num">6</em> Dong, D., Han, X., Deng, Z., & <b>Lyu, Z.</b> (2025). Technology blockade and incremental innovation lock-in. <span class="journal">East China Economic Management</span>. <span class="tag corr">Corresponding</span> <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU B</span> <span class="tag accepted">Accepted</span></div>
+    <div class="pub-card"><em class="pub-num">7</em> Han, X., <b>Lyu, Z.</b>, Chen, S., & Zhou, J. (2025). AI-enabled breakthroughs in key core technologies of strategic emerging industries. <span class="journal">Chinese Journal of Management</span>. <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU A</span> <span class="tag fms">FMS T1</span> <span class="tag accepted">Accepted</span></div>
+    <div class="pub-card"><em class="pub-num">8</em> Ma, F. & <b>Lyu, Z.</b> (2024). Promoting the integration of technology finance and risk prevention. <span class="journal">Sichuan Daily</span> (Ideology Weekly).</div>
+  </div>
+
+  <div class="pub-panel" id="p-ssci">
+    <div class="pub-card"><em class="pub-num">1</em> <b>Lyu, Z.</b>, Ma, F., & Zhang, J. (2023). Oil futures volatility prediction: Bagging or combination? <span class="journal">International Review of Economics & Finance</span>, 87, 457–467. <span class="tag">First Author</span> <span class="tag ssci">SSCI</span> <span class="tag zone">CAS Q2</span> <span class="tag if">IF 5.6</span> <span class="tag abs">ABS 2★</span> <span class="tag swjtu">SWJTU A</span> <a class="doi" href="https://doi.org/10.1016/j.iref.2023.05.007" target="_blank" rel="noopener">DOI</a></div>
+    <div class="pub-card"><em class="pub-num">2</em> Ma, F., <b>Lyu, Z.</b>, & Li, H. (2024). Can ChatGPT predict Chinese equity premiums? <span class="journal">Finance Research Letters</span>, 65, 105631. <span class="tag corr">Corresponding</span> <span class="tag ssci">SSCI</span> <span class="tag zone">CAS Q2</span> <span class="tag if">IF 6.9</span> <span class="tag abs">ABS 2★</span> <span class="tag swjtu">SWJTU B+</span> <a class="doi" href="https://doi.org/10.1016/j.frl.2024.105631" target="_blank" rel="noopener">DOI</a></div>
+    <div class="pub-card"><em class="pub-num">3</em> Luan, D., Zhou, X., <b>Lyu, Z.</b>, & Liu, W. (2025). From regulation to innovation: Eco-compensation and environmental sustainability in heavily polluting enterprises. <span class="journal">Journal of Environmental Management</span>, 395, 127733. <span class="tag ssci">SCI</span> <span class="tag zone">CAS Q2</span> <span class="tag if">IF 8.4</span> <span class="tag abs">ABS 3★</span> <span class="tag swjtu">SWJTU A+</span> <a class="doi" href="https://doi.org/10.1016/j.jenvman.2025.127733" target="_blank" rel="noopener">DOI</a></div>
+  </div>
+
+  <div class="pub-panel" id="p-cssci">
+    <div class="pub-card"><em class="pub-num">4</em> <b>Lyu, Z.</b>, Han, X., Xu, C., Wang, H., & Chen, S. (2026). "Walk the Talk" or "All Talk No Walk"? Government Environmental Attention and Corporate Green Transformation. <span class="journal">Soft Science</span>, Issue 5. <span class="tag">First Author</span> <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU B+</span> <span class="tag accepted">Accepted</span></div>
+    <div class="pub-card"><em class="pub-num">5</em> <b>Lyu, Z.</b>, Han, X., Gong, Y., & Gao, Y. (2025). Government digital procurement and high-quality enterprise development. <span class="journal">East China Economic Management</span>, 39(5), 65–77. <span class="tag">First Author</span> <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU B</span></div>
+    <div class="pub-card"><em class="pub-num">6</em> Dong, D., Han, X., Deng, Z., & <b>Lyu, Z.</b> (2025). Technology blockade and incremental innovation lock-in. <span class="journal">East China Economic Management</span>. <span class="tag corr">Corresponding</span> <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU B</span> <span class="tag accepted">Accepted</span></div>
+    <div class="pub-card"><em class="pub-num">7</em> Han, X., <b>Lyu, Z.</b>, Chen, S., & Zhou, J. (2025). AI-enabled breakthroughs in key core technologies of strategic emerging industries. <span class="journal">Chinese Journal of Management</span>. <span class="tag cssci">CSSCI</span> <span class="tag pku">PKU Core</span> <span class="tag swjtu">SWJTU A</span> <span class="tag fms">FMS T1</span> <span class="tag accepted">Accepted</span></div>
+  </div>
+
+  <div class="pub-panel" id="p-other">
+    <div class="pub-card"><em class="pub-num">8</em> Ma, F. & <b>Lyu, Z.</b> (2024). Promoting the integration of technology finance and risk prevention. <span class="journal">Sichuan Daily</span> (Ideology Weekly).</div>
+  </div>
+</div>
+
+<div class="about-section">
+  <h2>🎤 Academic Activities</h2>
+  <p><b>Conference Presentations</b></p>
+  <ul>
+    <li>Chengdu Four-University Joint Finance Forum & 7th Finance Doctoral Forum, 2025 <span class="award-chip">🥉 Third Prize</span></li>
+    <li>Sichuan Quantitative Economics Society Annual Symposium & 10th Doctoral Forum, 2024 <span class="award-chip">🥇 First Prize</span></li>
+    <li>SWJTU School of Economics and Management Doctoral Forum, 2024 <span class="award-chip">🏅 Outstanding Paper</span></li>
+  </ul>
+  <p><b>Visiting & Training</b></p>
+  <ul>
+    <li>Singapore Management University · Management and Economics Program, 2023</li>
+    <li>University of Chinese Academy of Social Sciences · 7th Camphor Young Scholars Program, 2024</li>
+    <li>Southwest Minzu University · 5th Camphor Western Program, 2025</li>
+  </ul>
+</div>
+
+<div class="about-section">
+  <h2>🏆 Honors & Awards</h2>
+  <ul>
+    <li><b>Ph.D.:</b> Outstanding Graduate Cadre; First-Class Academic Scholarship; Outstanding Author, Camphor Economics</li>
+    <li><b>M.A.:</b> National Scholarship; First-Class Academic Scholarship; Mingcheng Award; Sichuan Province Class-A Comprehensive Quality Certificate</li>
+    <li><b>B.A.:</b> National Scholarship; Baosteel Outstanding Student Award; Furong Scholar Academic Research Award; National Encouragement Scholarship; Special Commendation</li>
+    <li><b>Competitions:</b> "Challenge Cup" Sichuan Entrepreneurship Competition — Bronze (2024); MathorCup Mathematical Modeling — 3rd Prize; China Youth Cup Mathematical Modeling — 3rd Prize (2020)</li>
+  </ul>
+</div>
+
+<div class="about-section">
+  <h2>🛠 Skills</h2>
+  <ul>
+    <li><b>Programming & Analysis:</b> Python · R · Matlab · Stata · EViews</li>
+    <li><b>Databases:</b> Wind · Bloomberg · CSMAR · CNRDS</li>
+    <li><b>Certificates:</b> CET-6 · National Computer Rank Exam Level 2 · Junior Accountant Certificate</li>
+  </ul>
+</div>
+
+<script>
+function switchPubTab(e,id){
+  var panel=document.getElementById(id);
+  if(!panel)return;
+  var group=panel.parentNode;
+  var tabs=e.currentTarget.parentNode.querySelectorAll('.pub-tab');
+  var panels=group.querySelectorAll('.pub-panel');
+  tabs.forEach(function(t){t.classList.remove('active')});
+  panels.forEach(function(p){p.classList.remove('active')});
+  e.currentTarget.classList.add('active');
+  panel.classList.add('active');
+}
+</script>
